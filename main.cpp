@@ -8,10 +8,10 @@
 #include<assert.h>
 #include<sys/time.h>
 
-#define NUM_HILOS 32
+#define NUM_HILOS 32 // This should have been the number of threads available in the computer
 double **matriz1;
 double **matriz2;
-double **matriz3;
+double **matriz3; // This matrix is just printing zeros
 
 struct datos
 {
