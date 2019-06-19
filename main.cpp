@@ -49,10 +49,8 @@ void *calcular (void *parametros)
             int temporal=0;
             for(k = 0;k<filas;k++){
                 temporal+=matriz1[i][k]*matriz2[k][j];
-                matriz3[i][j]= temporal;
-
-
             }
+            matriz3[i][j]= temporal;
         }
     }
 
